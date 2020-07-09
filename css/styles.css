@@ -1,0 +1,112 @@
+@font-face {
+  font-family: mainFont;
+  src: url('./font/Karla.ttf');
+}
+
+body{
+  font-family: mainFont;
+  background-color: #e5eff5;
+}
+
+h2{
+  color: #2ab2af;
+  margin: 40px 40px 20px 40px;
+}
+
+h3{
+  margin: 20px 40px 10px 40px;
+  color: #e5eff5;
+}
+
+dl{
+    padding: 0 40px 40px 40px;
+    color: 	#e5eff5;
+    font-size: 13px;
+    line-height: 1.5;
+    opacity: 0.75;
+}
+
+.main{
+  width: 45%;
+  height: auto;
+  margin: 150px auto 150px auto;
+  box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pone{
+  color: 	#98a6bd;
+  line-height: 1.5;
+  margin: 10px 40px 40px 40px;
+}
+
+.ptwo{
+  color: #e5eff5;
+  padding: 0 40px 0 40px;
+}
+
+.permonth{
+  opacity: 0.5;
+}
+
+.h3one{
+  color: 	#c0df34;
+}
+
+.sub{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columnA{
+  background-color: #2BB3B1;
+}
+
+.columnB{
+  background-color: #4ABEBD;
+}
+
+.columnA, .columnB{
+  padding-top: 20px;
+  width: 50%;
+  height: auto;
+}
+
+.dollar{
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: sub;
+  margin-right: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color:	#3e52a3;
+}
+
+.myButton {
+	box-shadow: 0 8px 14px -8px #276873;
+	background-color:#c0df34;
+  border-style: solid;
+  border-color:  #2BB3B1;
+  border-width: 1px;
+	border-radius:8px;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+  width:75%;
+	height:47px;
+  line-height: 47px;
+	text-decoration:none;
+  text-align:center;
+  margin: 20px auto 0 auto;
+}
